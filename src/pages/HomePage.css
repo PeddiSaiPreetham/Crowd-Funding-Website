@@ -1,0 +1,93 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background-color: goldenrod; */
+}
+/* body{
+  background-color: goldenrod; 
+} */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -2.75%;
+  color: #e5d411;
+  margin-top: -20px;
+  margin-left: -15%;
+  margin-right: -15%;
+  background-color: rgb(114, 114, 202);
+  padding-left: 2%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+h1:hover{
+  cursor: pointer;
+  color: rgb(7, 234, 128);
+  transition: color 0.3s ease;
+  text-decoration:underline;
+}
+.logout-btn {
+  font-size: 1rem;
+  color: #0b0b0b;
+  background: none;
+  background: white;
+  border: none;
+  width: 10%;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.logout-btn:hover {
+  color: #ec0000;
+  background: #4ed8da;
+}
+
+.navbar {
+  background-color: #0be583;
+  display: flex;
+  justify-content:left;
+  gap: 15rem;
+  margin-top: 1.05%;
+  margin-left: -15%;
+  margin-right: -15%;
+  padding-left: 2%;
+}
+
+.navbar a {
+  font-size: 0.95rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 1 card per row for mobile */
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row for medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row for large screens */
+  }
+}
+

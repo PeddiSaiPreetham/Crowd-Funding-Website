@@ -1,0 +1,97 @@
+/* CampaignDetailPage.css */
+
+.campaign-detail-page {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+  }
+/*  
+  .campaign-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+*/  
+  .campaign-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .campaign-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .campaign-info {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .campaign-info p {
+    margin: 5px 0;
+  }
+  
+  .campaign-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .donate-btn {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donate-btn:hover {
+    background-color: #218838;
+  }
+  
+  .donation-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .donation-form label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .donation-form input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .donate-submit-btn {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donate-submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .donation-success {
+    font-size: 1.2rem;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
